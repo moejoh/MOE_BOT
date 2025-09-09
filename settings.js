@@ -3,7 +3,7 @@ const settings = {
   author: '𝐌oe hafsathy',
   botName: "𝗠OE_BOT",
   botOwner: 'Moe Hafsathy', // Your name
-  ownerNumber: '12136061765', //Set your number here without + symbol, just add country code & number without any space
+  ownerNumber: '255746769960', //Set your number here without + symbol, just add country code & number without any space
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
   commandMode: "private",
   maxStoreMessages: 20, 
