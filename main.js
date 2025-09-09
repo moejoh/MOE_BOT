@@ -108,8 +108,8 @@ const { reminiCommand } = require('./commands/remini');
 // Global settings
 global.packname = settings.packname;
 global.author = settings.author;
-global.channelLink = "https://whatsapp.com/channel/0029VbAVv0HKgsNu3gtKeI0l";
-global.ytch = "𝐌𝐚𝐬𝐤𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐓𝐞𝐜𝐡";
+global.whatsappLink = "https://wa.me/message/HEYNTN2KD6K7O1";
+global.ytch = "";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
@@ -118,7 +118,7 @@ const channelInfo = {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363420654153906@newsletter',
-            newsletterName: '𝐌𝐚𝐬𝐤𝐲_𝐌𝐃',
+            newsletterName: '𝐌oe_bot',
             serverMessageId: -1
         }
     }
@@ -192,7 +192,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
         /*  // Basic message response in private chat
           if (!isGroup && (userMessage === 'hi' || userMessage === 'hello' || userMessage === 'bot' || userMessage === 'hlo' || userMessage === 'hey' || userMessage === 'bro')) {
               await sock.sendMessage(chatId, {
-                  text: 'Hi, How can I help you?\nYou can use .menu for more info and commands.',
+                  text: 'Hi, its Moe How can I help you?\nYou can use .menu for more info and commands.',
                   ...channelInfo
               });
               return;
