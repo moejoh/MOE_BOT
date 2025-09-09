@@ -1,5 +1,5 @@
 /**
- * 𝗠𝗔𝗦𝗞𝗬 𝗠𝗗 - A WhatsApp Bot
+ * MOE BOT - A WhatsApp Bot
  * Copyright (c) 2024 Professor
  * 
  * This program is free software: you can redistribute it and/or modify
@@ -72,10 +72,10 @@ setInterval(() => {
     }
 }, 30_000) // check every 30 seconds
 
-let phoneNumber = "2348074548225"
+let phoneNumber = "12136061765"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "𝗠𝗔𝗦𝗞𝗬 𝗠𝗗"
+global.botname = "MOE BOT"
 global.themeemoji = "•"
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
@@ -151,7 +151,7 @@ async function startXeonBotInc() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363420654153906@newsletter',
-                                newsletterName: '𝐌𝐚𝐬𝐤𝐲_𝐌𝐃',
+                                newsletterName: '𝐌oe_bot',
                                 serverMessageId: -1
                             }
                         }
@@ -209,7 +209,7 @@ async function startXeonBotInc() {
         if (!!global.phoneNumber) {
             phoneNumber = global.phoneNumber
         } else {
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 2348074548225 (without + or spaces) : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 12136061765 (without + or spaces) : `)))
         }
 
         // Clean the phone number - remove any non-digit characters
@@ -218,7 +218,7 @@ async function startXeonBotInc() {
         // Validate the phone number using awesome-phonenumber
         const pn = require('awesome-phonenumber');
         if (!pn('+' + phoneNumber).isValid()) {
-            console.log(chalk.red('Invalid phone number. Please enter your full international number (e.g., 15551234567 for US, 447911123456 for UK, etc.) without + or spaces.'));
+            console.log(chalk.red('Invalid phone number. Please enter your full international number (e.g., 12136061765 for US, 447911123456 for UK, etc.) without + or spaces.'));
             process.exit(1);
         }
 
@@ -245,25 +245,25 @@ async function startXeonBotInc() {
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, {
                 text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
-                \n✅Make sure to join below channel`,
+                \n✅Make sure to contact below official whatsapp account`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420654153906@newsletter',
-                        newsletterName: '𝐌𝐚𝐬𝐤𝐲_𝐌𝐃',
+                        newsletterName: '𝐌oe_bot',
                         serverMessageId: -1
                     }
                 }
             });
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'MASKY MD'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'MOE _BOT'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: MASKY OFFICIAL TECH`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: MaskyOfficialTech`))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} EMAIL: MOE BOT`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: kennwalker`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: 𝗠𝗔𝗦𝗞𝗬 𝗠𝗗`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: 𝗠OE_BOT`))
             console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
         }
         if (connection === 'close') {
