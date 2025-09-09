@@ -10,7 +10,7 @@ const settings = {
   storeWriteInterval: 10000,
   description: "This is a bot for managing group commands and automating tasks.",
   version: "2.1.6",
-  updateZipUrl: "https://github.com/MaskyOfficialTech/MASKY_MD/archive/refs/heads/main.zip",
+  updateZipUrl: "https://github.com/Kennwalker/MOE_BOT/archive/refs/heads/main.zip",
 };
 
 module.exports = settings;
