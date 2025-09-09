@@ -1,16 +1,16 @@
-# 🤖 𝗠𝗔𝗦𝗞𝗬 𝗠𝗗
+# 🤖 𝗠OE BOT powered by Moe hafsathy☠️
 
 This is a WhatsApp bot built using the Baileys library for group management, including features like tagging all members, muting/unmuting, and many more. It's designed to help admins efficiently manage WhatsApp groups.
 
 <div align="center"> 
   <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=MASKY MD;Multi+Device+Whatsapp+Bot;Coded+By+Masky_Official_Tech" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=MASKY MD;Multi+Device+Whatsapp+Bot;Coded+By+Moe_hafsathy_☠️" alt="Typing SVG" />
   </a> 
 </div> 
 
 <div align="center"> 
   <a href="https://youtube.com/@Masky_Official_Tech"> 
-    <img src="https://github.com/MaskyOfficialTech/MASKY-XD_V2/blob/main/assets/bot_image.jpg" alt="MASKY XD" height="300"> 
+    <img src="https://i.postimg.cc/RZb4wYsK/IMG-0168.jpg" alt="MOE BOT" height="300"> 
   </a> 
 </div>
 
@@ -66,13 +66,13 @@ For further customization and setup guidance, click the button below:
 </a>
 </div>
 
-### Join Us
+### Contact Us
 
 <div align="center">
-  <a href="https://t.me/masky_md">
+  <a href="https://t.me/moee048">
     <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=white" alt="Join Telegram"/>
   </a>
-  <a href="https://whatsapp.com/channel/0029VbAVv0HKgsNu3gtKeI0l">
+  <a href="https://wa.me/message/HEYNTN2KD6K7O1">
     <img src="https://img.shields.io/badge/Join%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join WhatsApp"/>
   </a>
 </div>
@@ -93,7 +93,7 @@ For further customization and setup guidance, click the button below:
 
 ## 📖 About
 
-The Masky WhatsApp Bot assists group admins by providing them with tools to efficiently manage large WhatsApp groups. The bot uses the Baileys library to interact with the WhatsApp Web API and supports multi-device features.
+The Moe WhatsApp Bot assists group admins by providing them with tools to efficiently manage large WhatsApp groups. The bot uses the Baileys library to interact with the WhatsApp Web API and supports multi-device features.
 
 It is lightweight and can be easily customized to add more commands as per your requirements. The bot runs in a Node.js environment and provides QR code-based authentication to link your WhatsApp account.
 
@@ -111,8 +111,8 @@ It is lightweight and can be easily customized to add more commands as per your 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/MaskyOfficialTech/MASKY_MD.git
-    cd MASKY_MD
+    git clone https://github.com/Kennwalker/MOE_BOT
+    cd MOE_BOT
     ```
 
 2. **Install the dependencies:**
@@ -136,24 +136,24 @@ It is lightweight and can be easily customized to add more commands as per your 
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/MaskyOfficialTech/MASKY_MD/blob/main/LICENSE) file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/Kennwalker/MOE_BOT/blob/main/LICENSE) file for details.
 
 ---
 
 ## 🙌 Contributions
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/MaskyOfficialTech/MASKY_MD/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Kennwalker/MOE_BOT/issues).
 
 ---
 
 ## 🌟 Show your support
 
-If you like this project, please give it a [⭐️ star on GitHub](https://github.com/MaskyOfficialTech/MASKY_MD)!
+If you like this project, please give it a [⭐️ star on GitHub](https://github.com/Kennwalker/MOE_BOT)!
 
 
 ## Credits
 
-- [Masky](https://github.com/MaskyOfficialTech)
+- [Moehafsathy](https://github.com/Kennwalker)
 - [Baileys](https://github.com/adiwajshing/Baileys)
 
 
