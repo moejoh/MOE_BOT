@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: MASKY_MD
+    name: MOE_BOT
     env: node
     plan: free
     branch: main
